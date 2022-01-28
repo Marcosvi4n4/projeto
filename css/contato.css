@@ -1,0 +1,87 @@
+/* cabeçalho */
+.cabecalho{
+    position: relative;
+    display: flex;
+    background: white;
+}
+    
+.cabecalho h1{
+    margin-left: 1%;
+}
+    
+.destaque{
+    display: flex;
+    width: 100%;
+}
+    
+.home{
+    display:flex;
+    justify-items: space-between;
+    margin-left:65%;
+    margin-right:5%;   
+}
+    
+li{
+    margin:10%;
+}
+
+li:hover{
+    color: coral;
+}
+
+.home a {
+    text-transform: uppercase;
+}
+
+/* corpo */
+.formulario{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px auto;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 1.3%;
+}
+
+.input-padrao{
+    display: block;
+    margin-bottom: 0.9%;
+    padding: 10px 25px;
+    width: 35%;
+}
+
+.enviar{
+    display: block;
+    background-color: black;
+    color: white;
+    margin-bottom: 0.9%;
+    padding: 10px 25px;
+    width: 35%;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: gray;
+    transform: scale(1.1);
+}
+
+
+/* Rodape */
+
+footer{
+    background: url("https://ifrescuemission.org/wp-content/uploads/2018/10/footer-background.jpg");
+    width: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 3%;
+}

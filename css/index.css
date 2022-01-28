@@ -1,0 +1,34 @@
+.cabecalho{position: relative;
+    display: flex;
+}
+
+.cabecalho h1{
+    margin-left: 1%;
+}
+
+.home{
+    display:flex;
+    justify-items: space-between;
+    margin-left:65%;
+    margin-right:5%;
+}
+
+li{
+    margin:10%;
+}
+
+.home a {
+    text-transform: uppercase;
+}
+
+li:hover{
+    color: coral;
+}
+
+footer{
+    background: url("https://ifrescuemission.org/wp-content/uploads/2018/10/footer-background.jpg");
+    width: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 3%;
+}

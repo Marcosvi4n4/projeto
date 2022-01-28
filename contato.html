@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contato</title>
+        <link rel="stylesheet" href="css\reset.css">
+        <link rel="stylesheet" href="css/contato.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="cabecalho"> 
+                <h1><img src="https://img.icons8.com/ios/50/000000/mclaren.png" alt="Logo McLaren"/></h1>
+                <ul class="home">
+                    <li><a href="https://www.ayrtonsenna.com.br/piloto/">Historia</a></li>
+                    <li><a href="senna.html">catalago</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div class="formulario">
+                <form class="form" action="https://formsubmit.co/marcosviniciusvi4n4silva@gmail.com" method="POST"> 
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+    
+                    <label for="nomesobrenome">Nome e Sobrenome </label> 
+                    <input type="text" name="name" id="nomesobrenome" class="input-padrao" required placeholder="Nome">
+    
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="input-padrao" required placeholder="Email@dominio.com">
+    
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+    
+                    <label for="mensagem">Mensagem</label>   
+                    <textarea name="mensagem" id="mensagem" cols="49" rows="10" required ></textarea>
+    
+                    <label for="novidades">
+                    <input type="checkbox" name="" id="novidades" checked> Gostaria de receber novidades por email?</label>
+                    
+                    <input type="submit" class="enviar">
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <img src="img/back-logo2.png" alt="Logo McLaren">
+            <p>© Copyright McLaren - 2022</p>
+        </footer>
+    </body>
+</html>
